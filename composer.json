@@ -1,0 +1,40 @@
+{
+  "name": "itratos/itr-analytics",
+  "description": "Econda emos analytics module for oxid (CE, PE, EE).",
+  "version": "1.0.0",
+  "type": "oxideshop-module",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop",
+    "econda",
+    "emos",
+    "google",
+    "analytics"
+  ],
+  "homepage": "http://www.itratos.de",
+  "license": [
+    "GPL-3.0-only",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "itratos/analytics"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Itratos\\Oxid\\ItrAnalytics\\": "../../../source/modules/itratos/analytics"
+    }
+  }
+}
+
+
