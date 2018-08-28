@@ -24,7 +24,7 @@
       "blacklist-filter": [
         "documentation/**/*.*"
       ],
-      "target-directory": "itratos/analytics"
+      "target-directory": "itratos/itr_analytics"
     }
   },
   "require": {
@@ -32,7 +32,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Itratos\\Oxid\\ItrAnalytics\\": "../../../source/modules/itratos/analytics"
+      "Itratos\\Oxid\\ItrAnalytics\\": "../../../source/modules/itratos/itr_analytics"
     }
   }
 }
